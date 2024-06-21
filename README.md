@@ -24,14 +24,12 @@ Initiates Google OAuth login flow.
 Error Responses
 401 Unauthorized: If Google OAuth authentication fails.
 
-##### Blog Posts
-POST /blog: Creates a new blog post. Requires title, content, and author.
-GET /blog: Retrieves all blog posts.
-GET /blog/
-: Retrieves a single blog post by ID.
-PATCH /blog/
-: Updates a blog post by ID.
-DELETE /blog/
-: Deletes a blog post by ID.
+```
 
+##### Blog Posts
+ -POST/blog: Creates a new blog post. Requires title, content, and author.
+ -GET /blog: Retrieves all blog posts.
+ -GET /blog/id: Retrieves a single blog post by ID.
+ -PATCH /blog/id: Updates a blog post by ID.
+ -DELETE /blog/id: Deletes a blog post by ID.
 
